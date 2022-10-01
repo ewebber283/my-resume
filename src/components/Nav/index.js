@@ -1,45 +1,33 @@
-import React from 'react';
+import React, {useEffect, useState } from "react";
+import { Link, useLocation } from 'react-router-dom';
+import ReorderIcon from '@mui/icons-material/Reorder';
+import "../../styles/Nav.css";
 
 function Nav() {
+    const [expandNav, setExpandNav] = useState(false);
+    
+    const location = useLocation;
+    //run when location changes
 
-function categorySelected(name) {
-    console.log(`${name}`)
-    }
-const categories = [
-    { name: "Projects"},
-    { name: "Experience" },
-];
-return (
-    <header>
-        <h2>
-    <a data-testid="link" href="/">
-      Eric Webber
-    </a>
-  </h2>
-        <nav>
-            <ul className="flex-row">
-                <li className="mx-2">
-                    <a data-testid="about" href="#about">
-                    About me
-                    </a>
-                </li>
-                <li>
-                    <span>Contact</span>
-                </li>
-                {categories.map((category) => (
-                    <li
-                        className='mx-1'
-                        key={category.name}
-                        >
-                            <span onClick={() => categorySelected(category.name)} >
-                                {category.name}
-                            </span>
-                        </li>
-                ))}
-            </ul>
-        </nav>
-    </header>
-  );
+    useEffect(() => {
+        setExpandNav(false)
+    }, [location])
+    
+    return (
+    <div className='navbar' id={expandNav ? 'open' : 'close'}>
+        <div className='toggleBtn'>
+            <button onClick={() => {setExpandNav((prev) => !prev);
+            }}>
+                <ReorderIcon />
+            </button>
+        </div>
+        <div className='links'>
+            <Link to='/'>Home</Link>
+            <Link to='/projects'>Projects</Link>
+            <Link to='/background'>Background</Link>
+        </div>
+    </div>
+    );
 }
 
 export default Nav;
