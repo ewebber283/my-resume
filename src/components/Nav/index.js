@@ -24,7 +24,6 @@ function Nav() {
         <div className='links'>
             <Link to='/'>Home</Link>
             <Link to='/projects'>Projects</Link>
-            <Link to='/background'>Background</Link>
         </div>
     </div>
     );
