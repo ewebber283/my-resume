@@ -7,7 +7,7 @@ export const ProjectList = [
     {
         name: 'B.Safe',
         image: bSafe,
-        skills: 'CSS, HTML, JS',
+        skills: 'CSS, HTML, JavaScript',
         website: 'https://ewebber283.github.io/B-Safe/',
         github: 'https://github.com/ewebber283/B-Safe'
     },
@@ -21,21 +21,21 @@ export const ProjectList = [
     {
         name: 'Reactive Cooking',
         image: reactiveCooking,
-        skills: 'React.js',
+        skills: 'React, JavaScript',
         website: 'https://reactive-cooking.netlify.app/',
         github: 'https://github.com/ewebber283/reactive-cooking'
     },
     {
         name: 'Photo Port',
         image: photoPort,
-        skills: 'React.js',
+        skills: 'React, JavaScript',
         website: 'https://ewebber283.github.io/photo-port/',
         github: 'https://github.com/ewebber283/photo-port'
     },
     {
         name: 'Just Tech News',
         image: pythonTech,
-        skills: 'Python',
+        skills: 'Python, JavaScript',
         website: 'https://python-tech-news-28.herokuapp.com/',
         github: 'https://github.com/ewebber283/python-newsfeed'
     },
