@@ -2,7 +2,7 @@ import bSafe from '../assets/hero.png';
 import pythonTech from '../assets/pythonTechNews.png'
 import reactiveCooking from '../assets/reactiveCooking.png'
 import photoPort from '../assets/photoPort.png'
-import deepThoughts from '../assets/deepThoughts.png'
+import budgetTracker from '../assets/budgetTracker.png'
 export const ProjectList = [
     {
         name: 'B.Safe',
@@ -12,23 +12,23 @@ export const ProjectList = [
         github: 'https://github.com/ewebber283/B-Safe'
     },
     {
-        name: 'Deep Thoughts',
-        image: deepThoughts,
-        skills: 'Python',
-        website: 'https://stormy-eyrie-21899.herokuapp.com/',
-        github: 'https://github.com/ewebber283/deep-thoughts'
+        name: 'Budget Tracker',
+        image: budgetTracker,
+        skills: 'MongoDB, IndexedDB, Progressive Web Application',
+        website: 'https://immense-peak-61908.herokuapp.com/',
+        github: 'https://github.com/ewebber283/budget-tracker'
     },
     {
         name: 'Reactive Cooking',
         image: reactiveCooking,
-        skills: 'React',
+        skills: 'React.js',
         website: 'https://reactive-cooking.netlify.app/',
         github: 'https://github.com/ewebber283/reactive-cooking'
     },
     {
         name: 'Photo Port',
         image: photoPort,
-        skills: 'React',
+        skills: 'React.js',
         website: 'https://ewebber283.github.io/photo-port/',
         github: 'https://github.com/ewebber283/photo-port'
     },
