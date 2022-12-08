@@ -1,7 +1,7 @@
 import bSafe from '../assets/hero.png';
 import pythonTech from '../assets/pythonTechNews.png'
 import reactiveCooking from '../assets/reactiveCooking.png'
-import photoPort from '../assets/photoPort.png'
+import nedFit from '../assets/nedFit.png'
 import budgetTracker from '../assets/budgetTracker.png'
 export const ProjectList = [
     {
@@ -26,16 +26,16 @@ export const ProjectList = [
         github: 'https://github.com/ewebber283/reactive-cooking'
     },
     {
-        name: 'Photo Port',
-        image: photoPort,
+        name: 'Ned Stays Fit',
+        image: nedFit,
         skills: 'React, JavaScript',
         website: 'https://ewebber283.github.io/photo-port/',
-        github: 'https://github.com/ewebber283/photo-port'
+        github: 'https://ewebber283.github.io/ned-stays-fit/'
     },
     {
         name: 'Just Tech News',
         image: pythonTech,
-        skills: 'Python, JavaScript',
+        skills: 'Python',
         website: 'https://python-tech-news-28.herokuapp.com/',
         github: 'https://github.com/ewebber283/python-newsfeed'
     },
